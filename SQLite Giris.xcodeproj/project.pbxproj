@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793195BA22EF05FF009C0228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793195B922EF05FF009C0228 /* AppDelegate.swift */; };
+		793195BC22EF05FF009C0228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793195BB22EF05FF009C0228 /* ViewController.swift */; };
+		793195BF22EF05FF009C0228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793195BD22EF05FF009C0228 /* Main.storyboard */; };
+		793195C122EF0600009C0228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793195C022EF0600009C0228 /* Assets.xcassets */; };
+		793195C422EF0600009C0228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793195C222EF0600009C0228 /* LaunchScreen.storyboard */; };
+		793195CF22EF0600009C0228 /* SQLite_GirisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793195CE22EF0600009C0228 /* SQLite_GirisTests.swift */; };
+		793195DA22EF0600009C0228 /* SQLite_GirisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793195D922EF0600009C0228 /* SQLite_GirisUITests.swift */; };
+		793195E922EF064A009C0228 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 793195E822EF064A009C0228 /* libsqlite3.tbd */; };
+		793195F622EF06AF009C0228 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 793195ED22EF06AE009C0228 /* FMDatabase.m */; };
+		793195F722EF06AF009C0228 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 793195EF22EF06AF009C0228 /* FMResultSet.m */; };
+		793195F822EF06AF009C0228 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 793195F022EF06AF009C0228 /* FMDatabaseAdditions.m */; };
+		793195F922EF06AF009C0228 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 793195F122EF06AF009C0228 /* FMDatabasePool.m */; };
+		793195FA22EF06AF009C0228 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 793195F422EF06AF009C0228 /* FMDatabaseQueue.m */; };
+		793195FC22EF093D009C0228 /* kisilergiris.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 793195FB22EF093C009C0228 /* kisilergiris.sqlite */; };
+		7931960022EF13FB009C0228 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793195FF22EF13FB009C0228 /* Kisiler.swift */; };
+		7931960222EF146B009C0228 /* Kisilerdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931960122EF146B009C0228 /* Kisilerdao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		793195CB22EF0600009C0228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793195AE22EF05FF009C0228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793195B522EF05FF009C0228;
+			remoteInfo = "SQLite Giris";
+		};
+		793195D622EF0600009C0228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793195AE22EF05FF009C0228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793195B522EF05FF009C0228;
+			remoteInfo = "SQLite Giris";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		793195B622EF05FF009C0228 /* SQLite Giris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQLite Giris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793195B922EF05FF009C0228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		793195BB22EF05FF009C0228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		793195BE22EF05FF009C0228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		793195C022EF0600009C0228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		793195C322EF0600009C0228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		793195C522EF0600009C0228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793195CA22EF0600009C0228 /* SQLite GirisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLite GirisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793195CE22EF0600009C0228 /* SQLite_GirisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_GirisTests.swift; sourceTree = "<group>"; };
+		793195D022EF0600009C0228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793195D522EF0600009C0228 /* SQLite GirisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLite GirisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793195D922EF0600009C0228 /* SQLite_GirisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_GirisUITests.swift; sourceTree = "<group>"; };
+		793195DB22EF0600009C0228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793195E822EF064A009C0228 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		793195EA22EF06AD009C0228 /* SQLite Giris-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLite Giris-Bridging-Header.h"; sourceTree = "<group>"; };
+		793195EB22EF06AE009C0228 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		793195EC22EF06AE009C0228 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		793195ED22EF06AE009C0228 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		793195EE22EF06AE009C0228 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		793195EF22EF06AF009C0228 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		793195F022EF06AF009C0228 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		793195F122EF06AF009C0228 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		793195F222EF06AF009C0228 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		793195F322EF06AF009C0228 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		793195F422EF06AF009C0228 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		793195F522EF06AF009C0228 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		793195FB22EF093C009C0228 /* kisilergiris.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = kisilergiris.sqlite; sourceTree = "<group>"; };
+		793195FF22EF13FB009C0228 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		7931960122EF146B009C0228 /* Kisilerdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisilerdao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		793195B322EF05FF009C0228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793195E922EF064A009C0228 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793195C722EF0600009C0228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793195D222EF0600009C0228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793195AD22EF05FF009C0228 = {
+			isa = PBXGroup;
+			children = (
+				793195B822EF05FF009C0228 /* SQLite Giris */,
+				793195CD22EF0600009C0228 /* SQLite GirisTests */,
+				793195D822EF0600009C0228 /* SQLite GirisUITests */,
+				793195B722EF05FF009C0228 /* Products */,
+				793195E722EF064A009C0228 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		793195B722EF05FF009C0228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793195B622EF05FF009C0228 /* SQLite Giris.app */,
+				793195CA22EF0600009C0228 /* SQLite GirisTests.xctest */,
+				793195D522EF0600009C0228 /* SQLite GirisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		793195B822EF05FF009C0228 /* SQLite Giris */ = {
+			isa = PBXGroup;
+			children = (
+				793195FB22EF093C009C0228 /* kisilergiris.sqlite */,
+				793195B922EF05FF009C0228 /* AppDelegate.swift */,
+				793195BB22EF05FF009C0228 /* ViewController.swift */,
+				793195BD22EF05FF009C0228 /* Main.storyboard */,
+				793195C022EF0600009C0228 /* Assets.xcassets */,
+				793195C222EF0600009C0228 /* LaunchScreen.storyboard */,
+				793195C522EF0600009C0228 /* Info.plist */,
+				793195F522EF06AF009C0228 /* FMDatabase.h */,
+				793195ED22EF06AE009C0228 /* FMDatabase.m */,
+				793195EB22EF06AE009C0228 /* FMDatabaseAdditions.h */,
+				793195F022EF06AF009C0228 /* FMDatabaseAdditions.m */,
+				793195F222EF06AF009C0228 /* FMDatabasePool.h */,
+				793195F122EF06AF009C0228 /* FMDatabasePool.m */,
+				793195F322EF06AF009C0228 /* FMDatabaseQueue.h */,
+				793195F422EF06AF009C0228 /* FMDatabaseQueue.m */,
+				793195EE22EF06AE009C0228 /* FMDB.h */,
+				793195EC22EF06AE009C0228 /* FMResultSet.h */,
+				793195EF22EF06AF009C0228 /* FMResultSet.m */,
+				793195EA22EF06AD009C0228 /* SQLite Giris-Bridging-Header.h */,
+				793195FF22EF13FB009C0228 /* Kisiler.swift */,
+				7931960122EF146B009C0228 /* Kisilerdao.swift */,
+			);
+			path = "SQLite Giris";
+			sourceTree = "<group>";
+		};
+		793195CD22EF0600009C0228 /* SQLite GirisTests */ = {
+			isa = PBXGroup;
+			children = (
+				793195CE22EF0600009C0228 /* SQLite_GirisTests.swift */,
+				793195D022EF0600009C0228 /* Info.plist */,
+			);
+			path = "SQLite GirisTests";
+			sourceTree = "<group>";
+		};
+		793195D822EF0600009C0228 /* SQLite GirisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				793195D922EF0600009C0228 /* SQLite_GirisUITests.swift */,
+				793195DB22EF0600009C0228 /* Info.plist */,
+			);
+			path = "SQLite GirisUITests";
+			sourceTree = "<group>";
+		};
+		793195E722EF064A009C0228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				793195E822EF064A009C0228 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		793195B522EF05FF009C0228 /* SQLite Giris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793195DE22EF0600009C0228 /* Build configuration list for PBXNativeTarget "SQLite Giris" */;
+			buildPhases = (
+				793195B222EF05FF009C0228 /* Sources */,
+				793195B322EF05FF009C0228 /* Frameworks */,
+				793195B422EF05FF009C0228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLite Giris";
+			productName = "SQLite Giris";
+			productReference = 793195B622EF05FF009C0228 /* SQLite Giris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		793195C922EF0600009C0228 /* SQLite GirisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793195E122EF0600009C0228 /* Build configuration list for PBXNativeTarget "SQLite GirisTests" */;
+			buildPhases = (
+				793195C622EF0600009C0228 /* Sources */,
+				793195C722EF0600009C0228 /* Frameworks */,
+				793195C822EF0600009C0228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793195CC22EF0600009C0228 /* PBXTargetDependency */,
+			);
+			name = "SQLite GirisTests";
+			productName = "SQLite GirisTests";
+			productReference = 793195CA22EF0600009C0228 /* SQLite GirisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		793195D422EF0600009C0228 /* SQLite GirisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793195E422EF0600009C0228 /* Build configuration list for PBXNativeTarget "SQLite GirisUITests" */;
+			buildPhases = (
+				793195D122EF0600009C0228 /* Sources */,
+				793195D222EF0600009C0228 /* Frameworks */,
+				793195D322EF0600009C0228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793195D722EF0600009C0228 /* PBXTargetDependency */,
+			);
+			name = "SQLite GirisUITests";
+			productName = "SQLite GirisUITests";
+			productReference = 793195D522EF0600009C0228 /* SQLite GirisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		793195AE22EF05FF009C0228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = info;
+				TargetAttributes = {
+					793195B522EF05FF009C0228 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					793195C922EF0600009C0228 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 793195B522EF05FF009C0228;
+					};
+					793195D422EF0600009C0228 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 793195B522EF05FF009C0228;
+					};
+				};
+			};
+			buildConfigurationList = 793195B122EF05FF009C0228 /* Build configuration list for PBXProject "SQLite Giris" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 793195AD22EF05FF009C0228;
+			productRefGroup = 793195B722EF05FF009C0228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				793195B522EF05FF009C0228 /* SQLite Giris */,
+				793195C922EF0600009C0228 /* SQLite GirisTests */,
+				793195D422EF0600009C0228 /* SQLite GirisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		793195B422EF05FF009C0228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793195FC22EF093D009C0228 /* kisilergiris.sqlite in Resources */,
+				793195C422EF0600009C0228 /* LaunchScreen.storyboard in Resources */,
+				793195C122EF0600009C0228 /* Assets.xcassets in Resources */,
+				793195BF22EF05FF009C0228 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793195C822EF0600009C0228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793195D322EF0600009C0228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		793195B222EF05FF009C0228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793195F622EF06AF009C0228 /* FMDatabase.m in Sources */,
+				793195F922EF06AF009C0228 /* FMDatabasePool.m in Sources */,
+				793195BC22EF05FF009C0228 /* ViewController.swift in Sources */,
+				7931960022EF13FB009C0228 /* Kisiler.swift in Sources */,
+				793195FA22EF06AF009C0228 /* FMDatabaseQueue.m in Sources */,
+				7931960222EF146B009C0228 /* Kisilerdao.swift in Sources */,
+				793195F722EF06AF009C0228 /* FMResultSet.m in Sources */,
+				793195BA22EF05FF009C0228 /* AppDelegate.swift in Sources */,
+				793195F822EF06AF009C0228 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793195C622EF0600009C0228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793195CF22EF0600009C0228 /* SQLite_GirisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793195D122EF0600009C0228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793195DA22EF0600009C0228 /* SQLite_GirisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		793195CC22EF0600009C0228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793195B522EF05FF009C0228 /* SQLite Giris */;
+			targetProxy = 793195CB22EF0600009C0228 /* PBXContainerItemProxy */;
+		};
+		793195D722EF0600009C0228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793195B522EF05FF009C0228 /* SQLite Giris */;
+			targetProxy = 793195D622EF0600009C0228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		793195BD22EF05FF009C0228 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793195BE22EF05FF009C0228 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		793195C222EF0600009C0228 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793195C322EF0600009C0228 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		793195DC22EF0600009C0228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		793195DD22EF0600009C0228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		793195DF22EF0600009C0228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLite Giris/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.SQLite-Giris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLite Giris/SQLite Giris-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		793195E022EF0600009C0228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLite Giris/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.SQLite-Giris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLite Giris/SQLite Giris-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		793195E222EF0600009C0228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLite GirisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.SQLite-GirisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite Giris.app/SQLite Giris";
+			};
+			name = Debug;
+		};
+		793195E322EF0600009C0228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLite GirisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.SQLite-GirisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite Giris.app/SQLite Giris";
+			};
+			name = Release;
+		};
+		793195E522EF0600009C0228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLite GirisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.SQLite-GirisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SQLite Giris";
+			};
+			name = Debug;
+		};
+		793195E622EF0600009C0228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLite GirisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "info.SQLite-GirisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SQLite Giris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		793195B122EF05FF009C0228 /* Build configuration list for PBXProject "SQLite Giris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793195DC22EF0600009C0228 /* Debug */,
+				793195DD22EF0600009C0228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793195DE22EF0600009C0228 /* Build configuration list for PBXNativeTarget "SQLite Giris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793195DF22EF0600009C0228 /* Debug */,
+				793195E022EF0600009C0228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793195E122EF0600009C0228 /* Build configuration list for PBXNativeTarget "SQLite GirisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793195E222EF0600009C0228 /* Debug */,
+				793195E322EF0600009C0228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793195E422EF0600009C0228 /* Build configuration list for PBXNativeTarget "SQLite GirisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793195E522EF0600009C0228 /* Debug */,
+				793195E622EF0600009C0228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 793195AE22EF05FF009C0228 /* Project object */;
+}
